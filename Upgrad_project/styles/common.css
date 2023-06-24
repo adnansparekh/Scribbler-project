@@ -1,0 +1,210 @@
+.logo-heading{
+    font-family: 'Montez', cursive;
+    margin-bottom: 0%;
+    color: rgb(88, 88, 176);
+    width: 70%;
+    position: absolute;
+    top: 0%;
+    }
+    .logo-subheading{
+        margin-top: 1% ;
+    font-family: 'Ubuntu Mono', monospace; 
+    width: 70%;
+    font-size: 10px;
+    position: absolute;
+    top: 4.2%;
+    
+    }
+    
+    /* header{
+        height: auto;
+    } */
+    .all-btn{
+         /* text-align: right;
+        position:absolute;
+        top: 3.3%;
+        right:2%; */
+        display: inline;
+    }
+    
+    .Up-modal{
+        display: inline;
+    }
+    
+    #bg-img{
+    
+        width: 100%;
+        height: 96vh;
+     }
+    
+    .center-btn{
+        text-align: center;
+        position: absolute;
+        top: 48%;
+        left: 40%;
+          
+    }
+    
+    .main-btn{
+        opacity: 1;
+    }
+    
+    #all-post{
+        background-color: orange;
+        padding: 10px ;
+        border: white;
+        
+    }
+    #Create-Post{
+        background-color: orange;
+        padding: 10px ;
+        border: white;
+    }
+    
+    .btn-sign{ 
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+        
+    }
+    
+    
+    
+    /*box 1 of sign up is start here */
+      
+    #Sign-up{
+        background-color: blue;
+        color: white;
+        /* position: absolute;
+        right: 70px;
+        width: 65px; */
+        position: absolute;
+        right:70px;
+     
+    }
+    
+     
+     .modal1{
+          
+            background-color: white;
+            width: 25%;
+            height: 45vh;
+            position: absolute;
+            top: 150px;
+            left: 36%;
+            text-align:start;
+            padding: 9px;
+            display: none;
+            
+    
+     }
+    
+     #close{
+        position: relative;
+        top: 0px;
+        left: 90%;
+        font-size: 30px;
+        height: 5%;
+        cursor: pointer;
+    
+    }
+    #getstr{
+        margin-top: 1px;
+        margin-bottom: -25px;
+        font-size: 20px;
+    }
+    
+    .input{
+        width: 94%;
+        padding: 5px;
+        border: none;
+        background-color:azure;
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+    #mod-up-btn{
+        background-color: green;
+        width: 95%;
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        bottom: 15px;
+        left: 2;
+    }
+    
+    
+    /*box 1 of sign up is end here */
+    
+    
+    #Sign-In{
+        background-color: blue;
+        color: white;
+        /* position: absolute;
+        right: 2px;
+        width: 65px; */
+    }
+    
+    /*modal 2 start*/
+       
+        
+    .IN-modal{
+        display: none;
+        text-align: start;
+        justify-content: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 25%;
+        height: 45vh;
+        position: absolute;
+        top: 26%;
+        left:   37%;
+    
+    
+    }
+    #welcome{
+        font-size: 18px;
+        display: start;
+        position: relative;
+        top: -1px;
+        padding-left : 5px ;
+    
+    }
+    
+    #cut {
+        position: absolute;
+        top: 3%;
+        left: 90%;
+        font-size: 30px ;
+        cursor: pointer;
+       
+    }
+    input{
+    
+        margin: 5px;
+        margin-bottom: 10px;
+        width: 90%;
+        border: none;
+        background-color:gainsboro ;
+        padding: 5px;
+    
+    }
+    
+    
+    #btn-in{
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 85%;
+        background-color: green;
+        color: white;
+        padding: 5px;
+    }
+    
+    #msg{
+    text-align: center;
+    
+    }
+    #ch-modal{
+        color: blue;
+        cursor: pointer;
+    }

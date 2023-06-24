@@ -1,0 +1,387 @@
+body{
+    background-color: #ffeedd;
+   
+
+}
+.logo-heading{
+    font-family: 'Montez', cursive;
+    margin-bottom: 0%;
+    color: rgb(88, 88, 176);
+    width: 70%;
+    position: absolute;
+    top: 0%;
+    }
+    .logo-subheading{
+        margin-top: 1% ;
+    font-family: 'Ubuntu Mono', monospace; 
+    width: 70%;
+    font-size: 10px;
+    position: absolute;
+    top: 4.2%;
+    
+    }   
+    .all-btn{
+        text-align: right;
+        position:absolute;
+        top: 3.3%;
+        right:2%;
+        
+    }
+    .btn-sign{
+        background-color: blue;
+        color: white;
+    }
+
+
+    #Sign-up{
+        background-color: blue;
+        color: white;
+        position: absolute;
+        right: 70px;
+    width: 65px;
+    }
+    
+     
+     .modal1{
+          
+            background-color: white;
+            width: 145%;
+            height: 45vh;
+            position: relative;
+            top: 140px;
+            left: -320%;
+            text-align:start;
+            padding: 9px;
+            display: none;
+            z-index: 10;
+    
+     }
+    
+     #close{
+        cursor: pointer;
+        position: relative;
+        top: 0px;
+        left: 90%;
+        font-size: 30px;
+        height: 5%;
+    
+    }
+    #getstr{
+        margin-top: 1px;
+        margin-bottom: -25px;
+        font-size: 20px;
+    }
+    
+    .input{
+        width: 94%;
+        padding: 5px;
+        border: none;
+        background-color:azure;
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+    #mod-up-btn{
+        background-color: green;
+        width: 95%;
+        font-size: 15px;
+        color: white;
+        position: absolute;
+        bottom: 15px;
+        left: 2;
+    }
+    
+    
+    /*box 1 of sign up is end here */
+
+
+
+
+    .IN-modal{
+        display: none;
+        text-align: start;
+        justify-content: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 500%;
+        height: 45vh;
+        position: absolute;
+        top: 155px;
+        left: -1410%;
+        z-index: 10;
+    
+    }
+    #welcome{
+        font-size: 18px;
+        display: start;
+        position: relative;
+        top: 15px;
+        padding-left : 5px ;
+    
+    }
+    
+    #cut {
+        position: absolute;
+        top: 3%;
+        left: 90%;
+        font-size: 30px ;
+        cursor: pointer;
+       
+    }
+    input{
+    
+        margin: 5px;
+        margin-bottom: 10px;
+        width: 90%;
+        border: none;
+        background-color:gainsboro ;
+        padding: 5px;
+    
+    }
+    
+    
+    #btn-in{
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 85%;
+        background-color: green;
+        color: white;
+        padding: 5px;
+    }
+    
+    #msg{
+    text-align: center;
+    
+    }
+    
+    /* box 2 ends here*/
+
+
+
+.all-posts-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 70px;
+   
+}
+ /* .bgcolor{
+filter: blur(0.9px);
+}  */
+
+.box1{
+    /* opacity: 45%; */
+
+    width:38%;
+    justify-content: space-evenly;
+   font-size: 15px;
+   margin-right: 10%;
+    margin-top: 01px;
+   margin-left: 0% ;
+    margin-bottom: 25px;
+    /* margin: auto; */
+    height: 25vh;
+   overflow: hidden;
+   border-radius: 15px;
+   /* display: block; */
+   flex-wrap: wrap; 
+
+ 
+}
+
+
+.box1:nth-child(odd) {
+  justify-content: space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.box1:hover{
+    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
+}
+#box-1{
+    
+    justify-content: space-evenly;
+    display: block; 
+    /* position: relative;
+    left:18px; */
+}
+
+#box2{
+    
+    display: block; 
+    justify-content: space-evenly;
+
+
+    /* width: 40%; */
+    /* position: relative;
+    left:70px */
+}
+
+#box3{
+    display: block; 
+    justify-content: space-evenly;
+
+    /* position: relative;
+    left:18px */
+} 
+#box4{
+    display: block; 
+    justify-content: space-evenly;
+
+    /* position: relative;
+    left:70px;
+    width: 40%; */
+}
+#box5{
+    display: block; 
+    justify-content: space-evenly;
+  
+    /* position: relative;
+    left:270px;
+    flex-wrap: wrap;
+    width: 45%; */
+}
+
+.box1-left{
+    background-color:white;
+    width:70px;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: -15px;
+    border-top-left-radius: 30px  ; 
+    border-bottom-left-radius: 19px;
+}
+.right-box1{
+      background-color:  #E8E8E8;
+    position: relative;
+    left: 85px;
+    top: -222px;
+    height: 100%;
+    padding-left:8  px;
+    border-radius:  0 25%  25% 0;
+    
+}
+.name{
+    margin-top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1-head{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 70%;
+    margin-top: 60px;
+    background-color: none;
+}
+
+
+
+#box1-para{
+
+    display: flex;
+    width: 85%;
+    flex-wrap:wrap ;
+    overflow: hidden;
+}
+
+
+#box2-para{
+
+    width: 75%;
+    flex-wrap:wrap ;
+    overflow: hidden;
+}
+
+#box3-para{
+    font-size: 15px;    
+    width: 75%;
+    flex-wrap:wrap ;
+    overflow: hidden;
+}
+#box4-para{
+    width: 75%;
+    height: 53px;
+    flex-wrap:wrap ;
+
+    overflow: hidden;
+}
+#box5-para{
+    display: flex;
+    width: 77%;
+    height: 55px;
+    flex-wrap:wrap ;
+    overflow: hidden;   
+
+}
+
+.material-icons{
+    text-align: right;
+    padding-top: 9px;
+    position: absolute;
+    left: 77%;
+    
+    cursor: pointer;
+}
+
+#del-btn5{
+position: absolute;
+left:77%;
+top: 0;
+}
+
+#dot{
+background-color: yellow;
+width: 0%;
+position: absolute;
+top:125px;
+left: 78%;
+align-content: right;
+cursor: pointer;
+}
+
+.modal-all{
+    background-color: white;
+  display: none;
+    position: absolute;
+    top:35%;
+    left:30%;
+    right: 50%;
+    width: 30%;
+    height: 14vh;
+    /* opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1; */
+}
+
+.modal-form{
+    font-size: 20px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+        left: 8%;
+        top: -15px;
+        z-index: 1;
+        opacity: 1;
+}
+#yes{
+    background-color: green;
+    color: white;
+    width: 15%;
+    border: none;
+    padding: 4px;
+}
+#no{
+    border: none;
+background-color: red;
+width: 15%;
+color: white;
+padding: 4px;
+position: relative;
+right: -50%;
+
+}
+#span{
+    color: blue;
+cursor: pointer;
+}
